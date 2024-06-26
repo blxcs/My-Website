@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Page</title>
+</head>
+
+<style>
+body {
+  background-color: floralwhite;
+  background-attachment: fixed;  
+  background-size: cover;
+  font-family: times new roman; 
+ 
+}
+</style>
+</head>
+
+
+<body>
+
+<center>
+<button type="button" onclick="myFunction()">Hye !</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "WELCOME TO MY PERSONAL WEBSITE";
+}
+</script>
+
+<body>
+
+<p>Kindly fill up your details and leave a comment about my page.</p>
+<h4>Example: Dalila (*Student/Lecturer/Public)</h4>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Comments:</label><br>
+  <input type="text" id="lname" name="lname" value="Nice and amazing!"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
